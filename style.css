@@ -642,8 +642,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-
-h2,
 h3,
 h4,
 h5,
@@ -658,12 +656,24 @@ a {
 h1{
     font-family: 'helvetica'sans-serif;
     color: white !important;
-    font-weight: 600;
+    font-weight: 700;
 }
+citation{
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 1.8px;
+    word-spacing: 2.4px;
+}
+
 h2{
-    font-family: "helvetica";
+    font-family: "helvetica",sans-serif;
     font-weight: 500;
-    color: white!important;
+    color: #333333!important;
+    text-shadow: #000000 !important;
     text-align: center;
 }
 .title_services{
