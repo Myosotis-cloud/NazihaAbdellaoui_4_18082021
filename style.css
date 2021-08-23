@@ -642,7 +642,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -654,14 +654,20 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 500;
-    color: white!important;
 }
-
+h1{
+    font-family: 'helvetica'sans-serif;
+    color: white !important;
+    font-weight: 600;
+}
 h2{
     font-family: "helvetica";
     font-weight: 500;
     color: white!important;
     text-align: center;
+}
+.title_services{
+    color: #000000 !important;
 }
 
 .container {
