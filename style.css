@@ -285,6 +285,9 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    line-height: 48px;
+    word-spacing: 5.12px;
+    letter-spacing: 3.84px;
 }
 
 .navbar {
@@ -650,8 +653,15 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    color: white!important;
+}
+
+h2{
+    font-family: "helvetica";
+    font-weight: 500;
+    color: white!important;
+    text-align: center;
 }
 
 .container {
@@ -677,7 +687,10 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+    letter-spacing: 1.32px;
+    word-spacing: 1.76px;
+    line-height: 16.5px;
 }
 
 .tight-width-whitespace {
@@ -706,7 +719,9 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 33px;
+    word-spacing: 3.52px;
+    letter-spacing: 2.64px;
 }
 
 h3 {
@@ -714,6 +729,9 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 22.5px;
+    word-spacing: 2.4px;
+    letter-spacing: 1.8px;
 }
 
 .med-width-whitespace {
@@ -775,7 +793,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    font-weight: 600;
+    stroke-width: 20;
 }
 
 .btn-atomic-tangerine {
