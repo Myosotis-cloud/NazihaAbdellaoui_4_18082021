@@ -364,7 +364,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+/* ********************************MEDIA A PLUS DE 768PX*************** */
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -507,6 +507,16 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+/*.col-sm-4{
+    font-size: 20px;
+}
+.title_partenaire{
+    overflow: hidden;
+}
+.panneau{
+    list-style-type: none;
+    display: flex;
+}*/
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -658,11 +668,11 @@ h1{
     color: white !important;
     font-weight: 700;
 }
-citation{
-    color: #FFFFFF;
+.subtitle_main{
+    color: #FFFFFF !important;
     display: flex;
     text-align: center;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: 'Helvetica',sans-serif;
     font-size: 15px;
     line-height: 22.5px;
     letter-spacing: 1.8px;
