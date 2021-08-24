@@ -10,12 +10,17 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
+a:hover,
+a:focus {
     cursor: pointer;
+    transform: scale(1.1);
+    color: black !important;
+    background-color: #BAF5EB;
+    outline: black 3px solid;
+
 }
 
 #page-loading-blocs-notifaction {
@@ -103,8 +108,12 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+.d-bloc button:hover,
+.d-bloc button:focus{
+    color: black;
+    background-color: #BAF5EB;
+    outline: 1px solid #BAF5EB;
+    outline-offset: 5px;
 }
 
 .d-bloc .icon-round,
@@ -136,22 +145,6 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -163,13 +156,13 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
+/*.d-bloc .panel {
     color: rgba(0, 0, 0, .5);
-}
+}*/
 
-.d-bloc .panel button:hover {
+/*.d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
-}
+}*/
 
 .d-bloc .panel icon {
     border-color: rgba(0, 0, 0, .7);
@@ -181,10 +174,6 @@ a:hover {
 
 .d-bloc .panel .a-btn {
     color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
@@ -337,7 +326,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #BAF5EB;
+    color: black;
+    outline: 3px solid black;
 }
 
 .navbar-toggle {
@@ -363,6 +354,12 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+citation{
+    color: rgb(53, 50, 50);
+    font-size: 18px;
+    width: 25%;
 }
 /* ********************************MEDIA A PLUS DE 768PX*************** */
 @media (min-width: 768px) {
@@ -459,12 +456,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
+    color: black;
+    background: #BAF5EB;
 }
 
 .btn-rd {
@@ -663,8 +656,9 @@ a {
     font-family: "helvetica";
     font-weight: 500;
 }
+
 h1{
-    font-family: 'helvetica'sans-serif;
+    font-family: 'helvetica', sans-serif;
     color: white !important;
     font-weight: 700;
 }
@@ -683,7 +677,6 @@ h2{
     font-family: "helvetica",sans-serif;
     font-weight: 500;
     color: #333333!important;
-    text-shadow: #000000 !important;
     text-align: center;
 }
 .title_services{
@@ -821,7 +814,6 @@ h4 {
 .tc-white {
     color: #FFFFFF!important;
     font-weight: 600;
-    stroke-width: 20;
 }
 
 .btn-atomic-tangerine {
@@ -829,7 +821,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover{
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -870,7 +862,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+/* ***************************************** 1024px **************************************** */
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
