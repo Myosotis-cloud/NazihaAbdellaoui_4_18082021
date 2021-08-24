@@ -371,9 +371,13 @@ citation{
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
+    .nav > li .dropdown-menu a:hover,
+    .nav > li .dropdown-menu a:focus {
         color: #484848;
+        background-color: #BAF5EB;
+        transform: scale(1.2);
     }
+
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
@@ -808,7 +812,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF5A50;
 }
 
 .tc-white {
@@ -817,13 +821,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F3806C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover{
-    background: #c27956!important;
+    background: #975556!important;
     color: #FFFFFF!important;
+    border: #FFFFFF solid 5px;
 }
 
 .ltc-white {
