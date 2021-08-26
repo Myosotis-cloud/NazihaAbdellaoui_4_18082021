@@ -660,11 +660,10 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1{
@@ -716,12 +715,11 @@ h2{
 }
 
 p {
-    font-size: 20px;
-    letter-spacing: 2.4px;
-    word-spacing: 3.2px;
-    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 1.8px;
+    word-spacing: 2.4px;
+    line-height: 22.5px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tight-width-whitespace {
@@ -790,6 +788,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -963,6 +962,8 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .navbar.row {
         margin-left: 0;
@@ -1062,9 +1063,6 @@ h4 {
     }
     .voffset-lg {
         margin-top: 30px;
-    }
-    form {
-        line-height: 3em;
     }
     .close-lightbox {
         display: inline-block;
