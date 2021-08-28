@@ -29,6 +29,19 @@ a:focus {
     outline: black 3px solid;
 }
 
+.partenaires{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-top: 2em;
+}
+
+.title_partenaire a{
+    color: black;
+}
+
+
 form{
     line-height: 3em;
 }
@@ -38,7 +51,7 @@ form{
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: red url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .navbar-header{
@@ -110,7 +123,7 @@ form{
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.jpg");
     background-size: 280px 280px;
 }
 
@@ -744,6 +757,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    max-width: 400px;
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 h2 {
@@ -840,6 +858,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 18px;
 }
 
 .ltc-white:hover {
